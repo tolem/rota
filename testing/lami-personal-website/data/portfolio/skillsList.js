@@ -41,6 +41,20 @@ export default function skillsList() {
           link: 'https://www.python.org/',
           type: 'development',
           image: '/images/skills/git.png'
+        },
+        {
+          name: 'Figma',
+          description: 'Source Code Management',
+          link: 'https://www.python.org/',
+          type: 'development',
+          image: '/images/skills/figma.png'
+        },
+        {
+          name: 'CSS',
+          description: 'Source Code Management',
+          link: 'https://www.python.org/',
+          type: 'development',
+          image: '/images/skills/css3.png'
         }
       ];
 }

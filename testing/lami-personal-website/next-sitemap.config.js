@@ -1,4 +1,4 @@
-const siteUrl = "https://thosam.vercel.app";
+const siteUrl = "https://lamiolowoniyi.info";
 
 module.exports = {
   siteUrl,

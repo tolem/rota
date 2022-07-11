@@ -13,11 +13,11 @@ const chooseColor = (type) => {
   switch (type) {
     case "CS":
       return "green.300";
-    case "COM":
+    case "PSY":
       return "blue.300";
-    case "MATH":
+    case "InfSC":
       return "purple.300";
-    case "PHYS":
+    case "POLI":
       return "yellow.300";
     case "HUM":
       return "red.300";

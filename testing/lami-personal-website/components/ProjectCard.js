@@ -23,7 +23,7 @@ export default function ProjectCard({
   images,
 }) {
   return (
-    <MotionBox whileHover={{ y: -5 }}>
+    <MotionBox whileHover={{ y: -5}}>
       <Center py={6}>
         <Box
           maxW={"700px"} // so can take up to whole width

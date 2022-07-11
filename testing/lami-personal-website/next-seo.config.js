@@ -5,17 +5,17 @@ const description = "A Personal Website for blog articles - portfolio - coding"
 export default {
     title,
     description,
-    canonical: 'https://thosam.vercel.app/',  
+    canonical: 'https://tolem.lamiolowoniyi.info/',  
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        url: 'https://thosam.vercel.app/',
-        site_name: 'Thösam Norlha-Tsang',
+        url: 'https://tolem.lamiolowoniyi.info/',
+        site_name: 'Lami Olowoniyi',
         title,
         description,
         images: [
             {
-                url: 'https://thosam.vercel.app/images/website_thumbnail_thedog.png',
+                url: 'https://tolem.lamiolowoniyi.info/images/website_thumbnail_thedog.png',
                 alt: title
             }
         ]  

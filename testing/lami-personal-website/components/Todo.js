@@ -38,17 +38,17 @@ const Todo = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     const colorSecondary = {
-        light: 'gray.600',
+        light: 'black.600',
         dark: 'gray.400',
     }
 
     const borderColor = {
-        light: 'gray.200',
+        light: 'black.400',
         dark: 'gray.600',
     }
 
     const colorSmall = {
-        light: 'gray.400',
+        light: 'black.400',
         dark: 'gray.600',
     }
 
@@ -59,7 +59,7 @@ const Todo = () => {
         },
         {
             completed: false,
-            title: 'Improve Final Cut Pro skills 🎥',
+            title: 'Become a chess grandmaster ♟️',
         },
         {
             completed: false,
@@ -67,7 +67,7 @@ const Todo = () => {
         },
         {
             completed: false,
-            title: 'Read at least two great books every month 📚',
+            title: 'Strive to read two great books every month 📚',
         },
     ]
 
@@ -96,16 +96,18 @@ const Todo = () => {
                 <Stack spacing={4} w="100%">
                     <Heading letterSpacing="tight" size="lg" fontWeight={700} as="h2">Todo List 📝</Heading>
                     <Text color={colorSecondary[colorMode]}>Here is a list of things I plan to accomplish over the next year. Try it out yourself!</Text>
-                    <InputGroup size="md" mt={4} borderColor="gray.500" borderColor={borderColor[colorMode]}>
+                    <InputGroup size="md" mt={4} borderColor="gray.900" borderColor={borderColor[colorMode]}>
                         <InputLeftElement
                             pointerEvents="none"
                             children={<Search2Icon color={useColorModeValue("gray.800", "gray.600")} />}
                         />
                         <Input
                             aria-label="Enter a Todo!"
-                            placeholder="Improve Python skills 🐍"
-                            opacity="1.0"
+                            placeholder="Improve my  Python skills 🐍"
                             value={input}
+                            zIndex = {1}
+                            opacity={1}
+                            color={useColorModeValue("white.800", "black.900")}
                             onChange={e => setInput(e.target.value)}
                          
 

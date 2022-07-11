@@ -7,8 +7,7 @@ import { FadeInWrapper } from "./FadeInWrapper";
 // course arrays
 import BA1List from "../data/portfolio/education/BA1List";
 import BA2List from "../data/portfolio/education/BA2List";
-import BA3List from "../data/portfolio/education/BA3List";
-import BA4List from "../data/portfolio/education/BA4List";
+
 
 const correctList = (semester) => {
   switch (semester) {
@@ -16,10 +15,6 @@ const correctList = (semester) => {
       return BA1List();
     case "2":
       return BA2List();
-    case "3":
-      return BA3List();
-    case "4":
-      return BA4List();
     default:
       return BA1List();
   }

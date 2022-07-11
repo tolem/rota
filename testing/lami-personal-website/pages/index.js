@@ -26,7 +26,7 @@ import { NextSeo } from "next-seo";
 import FadeInWrapper from "../components/FadeInWrapper";
 import Todo from "../components/ToDo";
 
-const url = "https://thosam.vercel.app/";
+const url = "https://lamiolowoniyi.info/";
 const title = "Lami Olowoniyi";
 const description =
   "Frontend Developer, and AI enthusiast. This is my personal website where you can read my articles and have a look at my portfolio - Have fun !";
@@ -75,13 +75,12 @@ export default function Index() {
           <Flex flexDir="column" w={["100%", "100%", "50%"]} mr={[0, 0, 4]}>
             <Heading mb={3}>Hi there, I'm Lami 😁</Heading>
             <Text color={colorSecondary[colorMode]} mb={3}>
-              I am a <b>Usablity/ Frontend developer</b>, and student living in
+              I am a  <b>Usablity Specialist and Frontend developer</b>. Also an international student living in
               the United States.
             </Text>
 
             <Text color={colorSecondary[colorMode]}>
-              On this website, you can find useful resources on topics like :
-              coding, study, life, guitar, books, ... Feel free to check out my{" "}
+              On this website, you can find useful resources on topics about me... You can check out my {" "}
               <Link href="/blog" color="blue.500">
                 Blog
               </Link>{" "}
@@ -153,7 +152,7 @@ export default function Index() {
                 About Me
               </Heading>
               <Text color={colorSecondary[colorMode]}>
-                Hi everyone 👋, I'm Thösam Norlha-Tsang. I go to{" "}
+                Hi everyone 👋, my name is Lami Olowoniyi, and I am currently a student at{" "}
                 <Link
                   color="blue.500"
                   href="https://www.albany.edu"
@@ -161,9 +160,9 @@ export default function Index() {
                 >
                   SUNY Albany
                 </Link>{" "}
-                where I study information science. My personal website is where I
-                showcase my projects, writing, statistics, experience, and more.
-                Feel free to reach out via email or any social media.
+                . This is my personal website is where I
+                showcase my projects, writing, experience, and more.
+                Feel free to reach out via any of the social media icons in the footer section.
               </Text>
 
               <Link href="/about">
@@ -185,7 +184,7 @@ export default function Index() {
                 as="h2"
                 mb={4}
               >
-                Featured Projects
+                Featured Project
               </Heading>
 
               <ProjectCards featured={true} />
@@ -200,9 +199,12 @@ export default function Index() {
             
           </Flex>
         </Stack>
+
+        <Box>
         <FadeInWrapper>
-          <Todo></Todo>
+        <Todo></Todo>
         </FadeInWrapper>
+        </Box>
       </Container>
     </>
   );

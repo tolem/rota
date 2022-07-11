@@ -3,90 +3,96 @@ export default function projectsList() {
         {
             title: 'E-commerce web app',
             description: 'E-commerce platform made using React and the main goal was to learn about React and Sanity. Supports stripe payments.',
-            githubLink: 'https://github.com/Thosam1/megaBigE_commerceWebApp',
-            demoLink: 'https://ecom-clothes-portfolio-project.herokuapp.com/',
-            domainName: 'thosam-norlha-portfolio.netlify.app',
+            githubLink: 'https://github.com/tolem/ecommerce-site',
+            demoLink: 'https://ecommerce-site-drab.vercel.app//',
+            domainName: 'ecommerce-site-drab.vercel.app/',
             tags: [
                 'WebDev',
-                'React'
+                'React',
+                'Sanity'
             ],
             images: [
-                '/images/projects/ecommerce_image.png',
+                '/images/projects/ecommerce_image2.png',
             ],
             featured: false
         },
         {
-            title: 'Pacman - Save PacWoman',
-            description: 'Pacman variant made during my first year as a CS student at EPFL, it has 3 levels and the difficulty is insanely hard.',
-            githubLink: 'https://github.com/Thosam1/Pacman_MP2/tree/main/CS07-MP2-2020-V2',
-            demoLink: '',
-            domainName: '',
+            title: 'RoboFriends',
+            description: 'A React SPA makes API call to generate robo profiles and  users',
+            githubLink: 'https://github.com/tolem/robo/tree/gh-pages',
+            demoLink: 'https://tolem.github.io/robo/',
+            domainName: 'tolem.github.io/robo',
             tags: [
-                'Java',
+                'React',
             ],
             images: [
-                '/images/projects/pacman_lv2.png',
+                '/images/projects/robofriends.png',
+            ],
+            featured: false
+        },
+        {
+            title: 'Newsroom',
+            description: 'In Progress a news website powered by NewsAPI',
+            githubLink: '#',
+            demoLink: '#',
+            domainName: '#',
+            tags: [
+                'React',
+                'Mongoose',
+                'Node'
+            ],
+            images: [
+                'https://via.placeholder.com/350x150?text=Hello',
             ],
             featured: true
         },
         {
-            title: 'Tchu',
-            description: 'A project made during my first year as a CS student. This one took a whole semester, more than 200 hours. It is a game played by 2 players through a network connection.',
-            githubLink: 'https://github.com/Thosam1/tCHu_projetBA2',
-            demoLink: '',
-            domainName: '',
-            tags: [
-                'Java',
-            ],
-            images: [
-                '/images/projects/tchu_image.png',
-            ],
-            featured: true
-        },
-        {
-            title: 'First Portfolio Website',
+            title: 'Workout Website',
             description: 'First try to make a portfolio made using React, learned about Sanity as CMS, framer-motion for animations and page wrappers.',
-            githubLink: 'https://github.com/Thosam1/thosam_portfolio',
-            demoLink: 'https://thosam-norlha-portfolio.netlify.app/',
-            domainName: 'thosam-norlha-portfolio.netlify.app',
+            githubLink: 'https://github.com/tolem/fitness-app',
+            demoLink: 'https://fitness-app-blue.vercel.app/',
+            domainName: 'fitness-app-blue.vercel.app/',
             tags: [
                 'WebDev',
                 'React'
             ],
             images: [
-                '/images/projects/portfolio_image.png',
+                '/images/projects/workout.png',
             ],
             featured: false
         },
         {
             title: 'First Blog Website',
-            description: "First try to make a blog made using Next.js and Tailwind CSS, learned about graphCMS, graphQL, light/dark themes, graphQL. But had to upload images every time to graphCMS (time consuming) and as a first try, the structure/code were bad, so I made the current personal website.",
-            githubLink: 'https://github.com/Thosam1/thosam_blog',
-            demoLink: 'https://thosam-blog.vercel.app/',
-            domainName: 'thosam-blog.vercel.app',
+            description: "First try to make a blog made using Flask and Bootstrap, learned about , SQLAlchemy, and Blueprint as a first try, the structure/code were bad, so I made this website!.",
+            githubLink: 'https://github.com/tolem/fora-flask',
+            demoLink: 'https://storiesfora.herokuapp.com/',
+            domainName: 'www.lamiolowoniyi.info',
             tags: [
                 'WebDev',
-                'NextJs'
+                'Flask',
+                'Python'
             ],
             images: [
-                '/images/projects/first_blog.png',
+                '/images/projects/storyfora.png',
             ],
             featured: false
         },
         {
             title: 'Personal Web App 🔥',
             description: "Current website made using Next.js and Chakra UI, merged my portfolio and my blog in a single place. Exporting my Notion blog articles into MDX is much more time efficient. Spent a lot of time thinking about how to write efficient code.",
-            githubLink: 'https://github.com/Thosam1/thosam_personal_blog',
-            demoLink: 'https://thosam.vercel.app/',
-            domainName: 'thosam.vercel.app',
+            githubLink: '#',
+            demoLink: 'https://lamiolowoniyi.info/',
+            domainName: 'www.lamiolowoniyi.info',
             tags: [
                 'WebDev',
                 'NextJs'
             ],
             images: [
-                '/images/projects/bg_personal_website.png'
+                '/images/projects/homepage.png'
             ],
             featured: false
         },
     ];
 }
+
+

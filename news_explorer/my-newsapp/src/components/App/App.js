@@ -1,13 +1,14 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-console */
 /* eslint-disable no-shadow */
 /* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
+
 import React, { useEffect, useState } from 'react';
 import {
   Redirect, Route, Switch, useHistory,
 } from 'react-router-dom';
 import CurrentUserContext from '../../contexts/CurrentUserContext';
-
 import Footer from '../Footer/Footer';
 import Main from '../Main/Main';
 import SaveNews from '../SavedNews/SaveNews';
@@ -22,7 +23,8 @@ import NoResults from '../Preloader/NoResults';
 import Preloader from '../Preloader/Preloader';
 import ResultError from '../Preloader/ResultError';
 
-const App = () => {
+
+function App() {
   const [currentUser, setCurrentUser] = useState({});
   const [signIn, setSignIn] = useState(false);
   const [signUp, setSignUp] = useState(false);
@@ -195,6 +197,6 @@ const App = () => {
       </div>
     </CurrentUserContext.Provider>
   );
-};
+}
 
 export default App;

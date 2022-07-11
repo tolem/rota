@@ -53,8 +53,8 @@ const Footer = () => {
             />
           </Link>
           <Link
-            href="https://www.instagram.com/tho_norlha/"
-            title="Instagram"
+            href="https://discord.gg/RPj8etF"
+            title="Discord"
             isExternal
           >
             <IconButton
@@ -66,7 +66,7 @@ const Footer = () => {
               _hover={{ backgroundColor: footerHoverBg[colorMode] }}
             />
           </Link>
-          <Link href="https://github.com/Thosam1" title="GitHub" isExternal>
+          <Link href="https://github.com/tolem" title="GitHub" isExternal>
             <IconButton
               aria-label="GitHub"
               icon={<FiGithub />}
@@ -77,7 +77,7 @@ const Footer = () => {
             />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/th%C3%B6sam-n-328932236/"
+            href="https://www.linkedin.com/in/lami-olowoniyi-1b5019228/"
             title="LinkedIn"
             isExternal
           >

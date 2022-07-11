@@ -36,7 +36,7 @@ import { FiMail } from "react-icons/fi";
 // SEO
 import { NextSeo } from "next-seo";
 
-const url = "https://thosam.vercel.app/portfolio";
+const url = "https://lamiolowoniyi.info/portfolio";
 const title = "Portfolio - Lami Olowoniyi";
 const description =
   "Have a look at my projects - see my education and experience !";
@@ -97,7 +97,7 @@ const Portfolio = () => {
             <Flex flexDir="column" w={["100%", "100%", "50%"]} mr={[0, 0, 4]}>
               <Heading mb={3}>Hi 👋, I'm Lami</Heading>
               <Text color={colorSecondary[colorMode]} mb={3}>
-                I am a <b>Usablity/web developer</b>, and masters student living in
+                I am a <b>Usablity Specialist and Frontend developer</b>, currently a Master's Student in
                 Albany NY.
               </Text>
 
@@ -274,6 +274,10 @@ const Portfolio = () => {
 
               {/* <MdOutlineSchool size="40px" /> */}
               <FadeInWrapper>
+
+              </FadeInWrapper>
+
+              <FadeInWrapper>
                 <Heading
                   letterSpacing="tight"
                   mt={8}
@@ -285,8 +289,12 @@ const Portfolio = () => {
                   SUNY Albany - Masters in Information Science
                 </Heading>
               </FadeInWrapper>
-
+              <Heading> Research Interest</Heading>
               <FadeInWrapper>
+                <Box><Text> Information Organization </Text>
+                <TexT> Knowledge Management </TexT>
+                
+                </Box>
                 <Heading
                   letterSpacing="tight"
                   mt={8}
@@ -295,21 +303,7 @@ const Portfolio = () => {
                   as="h2"
                   mb={7}
                 >
-                  EPFL - Year 1 - Semester 1
-                </Heading>
-              </FadeInWrapper>
-              <CourseCards semester={"1"} />
-
-              <FadeInWrapper>
-                <Heading
-                  letterSpacing="tight"
-                  mt={8}
-                  size="md"
-                  fontWeight={700}
-                  as="h2"
-                  mb={7}
-                >
-                  EPFL - Year 1 - Semester 2
+                  Courses
                 </Heading>
               </FadeInWrapper>
               <CourseCards semester={"2"} />
@@ -323,24 +317,11 @@ const Portfolio = () => {
                   as="h2"
                   mb={7}
                 >
-                  EPFL - Year 2 - Semester 1
+                  Certificates
                 </Heading>
               </FadeInWrapper>
-              <CourseCards semester={"3"} />
+              <CourseCards semester={"1"} />
 
-              <FadeInWrapper>
-                <Heading
-                  letterSpacing="tight"
-                  mt={8}
-                  size="md"
-                  fontWeight={700}
-                  as="h2"
-                  mb={7}
-                >
-                  EPFL - Year 2 - Semester 2
-                </Heading>
-              </FadeInWrapper>
-              <CourseCards semester={"4"} />
             </Box>
 
             {/* Contact Me */}

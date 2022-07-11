@@ -90,6 +90,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  cursor: pointer;
 }
 
 .card h2 {
@@ -113,4 +114,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+::placeholder{
+  color:black;
 }
