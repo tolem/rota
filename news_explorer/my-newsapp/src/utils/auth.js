@@ -20,8 +20,6 @@ export const register = (email, password, name) => fetch(`${BASE_URL}/signup`, {
   return data;
 });
 
-
-
 export const authorize = (password, email) => fetch(`${BASE_URL}/signin`, {
   method: 'POST',
   headers: {

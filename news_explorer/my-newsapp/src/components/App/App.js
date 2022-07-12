@@ -23,7 +23,6 @@ import NoResults from '../Preloader/NoResults';
 import Preloader from '../Preloader/Preloader';
 import ResultError from '../Preloader/ResultError';
 
-
 function App() {
   const [currentUser, setCurrentUser] = useState({});
   const [signIn, setSignIn] = useState(false);
@@ -178,7 +177,6 @@ function App() {
             }
             {resultError ? <ResultError /> : ''}
 
-         
           </Route>
 
           <ProtectedRoute path="/saved-news" loggedIn={loggedIn} component={SaveNews} headerClick={logout} singInDirect={openSignIn} />
