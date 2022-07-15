@@ -27,7 +27,7 @@ const Header = ({ loggedIn, buttonClick }) => {
         className="header__title"
         to="/"
       >
-        NewsExplorer
+        NewsRoom
       </NavLink>
 
       <button onClick={toggleDropDown} type="button" className={`header__hamburger ${burger ? 'header__button-open' : 'header__button-close'}`} />
